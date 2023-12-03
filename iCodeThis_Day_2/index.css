@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family:
+    Great Vibe,
+    serif;
+  padding-top: 5rem;
+  font-weight: 700;
+  background: rgb(168 211 224);
+}
+
+.thumbnail {
+  border: 0.5rem solid white;
+}
+
+.active-thumbnail,
+.product-details {
+  border: 0.5rem solid #4a7091;
+}
+
+.star-rating {
+  display: inline-block;
+}
+
+.star {
+  font-size: 20px;
+  color: black;
+  margin-right: 2px;
+}
+
+.yellow-star {
+  color: yellow;
+}

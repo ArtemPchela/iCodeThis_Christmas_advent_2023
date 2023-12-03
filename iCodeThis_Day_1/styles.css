@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add CSS here */
+.title {
+	font-family: Mountains of Christmas, serif;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Countdown</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#181028] flex justify-center items-center min-h-screen p-4">
+    <div
+      class="bg-[#a7b0bd] text-[#181028] shadow-lg rounded-xl w-full max-w-[1240px] mx-auto h-[90vh] flex justify-center items-center"
+    >
+      <div
+        class="bg-cover bg-center bg-no-repeat rounded-t-xl h-[80%] w-[80%] justify-center items-center bg-[url('https://cdn.wallpapersafari.com/90/15/pUTvQh.jpg')] flex flex-col px-12"
+      >
+        <div class="title text-center text-[#181028]">
+          <h1>iCodeMas is coming to town</h1>
+          <p>
+            Celebrate the Magic of the Season! Exclusive Christmas Challenges
+            for 24 days!
+          </p>
+        </div>
+        <div
+          id="countdown"
+          class="grid grid-cols-2 sm:grid-cols-4 gap-4 p-8 justify-items-center"
+        >
+          <div
+            class="card flex flex-col items-center justify-center bg-white rounded-lg shadow p-4 w-full h-32 sm:h-40"
+          >
+            <h2 id="days" class="text-4xl sm:text-5xl font-extrabold pb-4">
+              24
+            </h2>
+            <span id="days-title" class="text-lg sm:text-xl font-semibold">
+              Days
+            </span>
+          </div>
+          <div
+            class="card flex flex-col items-center justify-center bg-white rounded-lg shadow p-4 w-full h-32 sm:h-40"
+          >
+            <h2 id="hours" class="text-4xl sm:text-5xl font-extrabold pb-4">
+              12
+            </h2>
+            <span id="hours-title" class="text-lg sm:text-xl font-semibold">
+              Hours
+            </span>
+          </div>
+          <div
+            class="card flex flex-col items-center justify-center bg-white rounded-lg shadow p-4 w-full h-32 sm:h-40"
+          >
+            <h2 id="minutes" class="text-4xl sm:text-5xl font-extrabold pb-4">
+              23
+            </h2>
+            <span id="minutes-title" class="text-lg sm:text-xl font-semibold">
+              Minutes
+            </span>
+          </div>
+          <div
+            class="card flex flex-col items-center justify-center bg-white rounded-lg shadow p-4 w-full h-32 sm:h-40"
+          >
+            <h2 id="seconds" class="text-4xl sm:text-5xl font-extrabold pb-4">
+              01
+            </h2>
+            <span id="seconds-title" class="text-lg sm:text-xl font-semibold">
+              Seconds
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

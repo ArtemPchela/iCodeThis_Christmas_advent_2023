@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featured Products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      .star {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-[90%] max-w-[768px] my-0 mx-auto">
+      <div class="flex flex-col items-center justify-center">
+        <h1 class="text-4xl mb-4">Featured Products</h1>
+        <p class="text-lg text-center">
+          Discover the magic of the season with our handpicked Featured
+          Products. From enchanting decorations to delightful gifts, these
+          curated items are sure to add a touch of joy to your festive
+          celebrations.
+        </p>
+      </div>
+
+      <div
+        id="product-selector"
+        class="flex flex-wrap gap-[2rem] justify-center my-8"
+      >
+        <!-- Thumbnails -->
+        <div class="thumbnail active">
+          <img src="" alt="Christmas Tree" class="w-[12rem] h-[12rem]" />
+        </div>
+        <div class="thumbnail">
+          <img src="" alt="Gift Box" class="w-[12rem] h-[12rem]" />
+        </div>
+        <div class="thumbnail">
+          <img src="" alt="Gingerbread Man" class="w-[12rem] h-[12rem]" />
+        </div>
+      </div>
+
+      <div id="product-display">
+        <!-- Large View of Product -->
+        <div class="product flex">
+          <div class="product-details w-1/2">
+            <img
+              id="display-img"
+              src=""
+              alt="Christmas Tree"
+              class="w-full h-full"
+            />
+          </div>
+          <div class="w-1/2 p-4">
+            <h2 id="display-title" class="text-2xl mb-2">
+              Christmas Tree Decoration
+            </h2>
+            <p
+              class="price text-green-600 text-xl font-bold mb-4"
+              id="display-price"
+            >
+              $19.99
+            </p>
+            <p class="description" id="display-desc">
+              Perfect for adding a festive touch to any space...
+            </p>
+            <div class="product-rating">
+              <div class="star-rating" id="display-star-rating"></div>
+            </div>
+            <button
+              class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mt-4"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <script src="./index.js"></script>
+    </div>
+  </body>
+</html>
