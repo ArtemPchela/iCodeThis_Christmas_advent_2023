@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featured Products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body
+    class="bg-[url('https://images.unsplash.com/photo-1576919228236-a097c32a5cd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center flex justify-center items-center min-h-screen"
+  >
+    <div
+      id="home"
+      class="justify-center align-middle text-center w-[90%] md:w-[60%] mx-auto"
+    >
+      <h1
+        id="animatedText"
+      >
+        UNWRAP JOY WITH OUR
+        SPECTACULAR CHRISTMAS SALE!
+      </h1>
+      <h3 class="text-white text-lg mb-6">
+        Explore a winter wonderland of discounts on a wide range of products,
+        from dazzling decorations to thoughtful gifts that will warm hearts.
+      </h3>
+      <button
+        id="showCard"
+        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        Shop Collection
+      </button>
+    </div>
+
+    <div id="itemCard" class="card mt-4">
+      <div class="container mx-auto p-4">
+        <h2 class="text-4xl font-bold mb-4 text-center">
+          Christmas Collection
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
+        >
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <img
+              src="https://i.ebayimg.com/images/g/E28AAOSwg3JjeWEa/s-l1200.jpg"
+              alt="Car 1"
+              class="w-full h-40 object-cover mb-2 rounded-lg"
+            />
+            <h2 class="text-lg font-semibold">Snow Doll toys</h2>
+            <p class="text-gray-600 mb-2">$25,000</p>
+            <p class="text-sm text-gray-500">
+              2023 New Year White Snow Angel Doll toys Decoration for Home
+              Christmas
+            </p>
+          </div>
+
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <img
+              src="https://ae01.alicdn.com/kf/S79afeca9bc6946ab81104538e1fe5485o.jpg_640x640Q90.jpg_.webp"
+              alt="Car 2"
+              class="w-full h-40 object-cover mb-2 rounded-lg"
+            />
+            <h2 class="text-lg font-semibold">Dolls Decoration For Home</h2>
+            <p class="text-gray-600 mb-2">$30,000</p>
+            <p class="text-sm text-gray-500">
+              New Year Angel Doll Christmas Tree Hanging Decor Santa Claus
+              Pendants Snowman Xmas Decoration For Home
+            </p>
+          </div>
+
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <img
+              src="https://shophomeinspo.com/cdn/shop/products/487022733258.jpg?v=1604093646"
+              alt="Car 2"
+              class="w-full h-40 object-cover mb-2 rounded-lg"
+            />
+            <h2 class="text-lg font-semibold">Pine Cone People</h2>
+            <p class="text-gray-600 mb-2">$30,000</p>
+            <p class="text-sm text-gray-500">
+              Pine Cone People Christmas Decorations – Shop Home Inspo
+            </p>
+          </div>
+
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <img
+              src="https://www.cc-craft.co.uk/media/catalog/product/cache/f5a04654fa1291930ec6413dd4db78d6/v/1/v16664.jpg"
+              alt="Car 2"
+              class="w-full h-40 object-cover mb-2 rounded-lg"
+            />
+            <h2 class="text-lg font-semibold">Christmas Bell</h2>
+            <p class="text-gray-600 mb-2">$30,000</p>
+            <p class="text-sm text-gray-500">
+              Christmas Bell With Mini-decorations
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        id="hideCard"
+        class="bg-red-500 hover:bg-red-600 text-white font-bold mt-4 py-2 px-4 rounded focus:outline-none focus:shadow-outline justify-center"
+      >
+        Go back
+      </button>
+    </div>
+  </body>
+
+  <script src="./index.js"></script>
+</html>
